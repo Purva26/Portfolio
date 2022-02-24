@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/icons/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/icons/favicon-32x32.png"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <title>portfolio</title>
+  </head>
+
+  <body>
+     <nav>
+      <h1>Purva Sutar Portfolio</h1>
+      <ul class="navigation">
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <button class="burger-menu" id="burger-menu">
+        <ion-icon class="bars" name="menu-outline"></ion-icon>
+      </button>
+</nav>
+
+
+<section class="hero" id="about">
+      <img
+        src="1st.gif"
+        height="42"
+        width="50"
+        loading="lazy"
+        class="hero-img"
+      />
+      <div class="bio animate__animated animate__shakeX">
+        <h2 class="bio-title">Hello! I'm Purva 👋 </h2>
+        <p class="bio-text">
+          I am Computer Science student currently pursuing degree in Pune. I am proficient in the Java, Python, PHP and SQL.
+          I have completed my internship in Web Develepment.I have successfully created a chatbot for ordering Pizza.
+ 
+        </p>
+      </div>
+</section>
+
+    
+
+    </section>
+    <!-- Skills section -->
+    <section class="skills" id="skills">
+      <h2 class="skill-header">Top Skills</h2>
+
+      <div class="skills-wrapper">
+        <div class="first-set animate__animated animate__pulse">
+          <img
+            src="java.jpg"
+            alt="Java"
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="html.png"
+            alt="Html & CSS"
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="python.png"
+            alt="Python"
+            loading="lazy"
+            class="icon icon-card"
+          />
+        </div>
+
+        <div class="second-set animate__animated animate__pulse">
+          <img
+            src="mysql.png"
+            alt="My SQL"
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="php.jpg"
+            alt="PHP"
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="js.png"
+            alt="JavaScript"
+            loading="lazy"
+            class="icon icon-card"
+          />
+        </div>
+      </div>
+    </section>
+
+    
+<section class="projects" id="projects">
+      <h2 class="projects-title">My Projects</h2>
+      <div class="projects-container">
+        <div class="project-container project-card">
+          <img
+            src="rock.jpg"
+            alt="Rock-Paper-Scissors Game"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title">Rock Paper Scissors Game</h3>
+          
+          <a href="https://github.com/Purva26/Rock-Paper-Scissors" target="_blank" class="project-link">Check it Out</a>
+        </div>
+        <div class="project-container project-card">
+          <img
+            src="landing.jpg"
+            alt="Landing Page"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title">Landing Page</h3>
+         
+          <a href="https://github.com/Purva26/Landing-Page-OIBSIP" target="_blank" class="project-link">Check it Out</a>
+        </div>
+        <div class="project-container project-card">
+          <img
+            src="temperature.png"
+            alt="Temperature-Converter"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title">Temperature Converter Website</h3>
+         
+          <a href="https://github.com/Purva26/Temperature-Converter" target="_blank" class="project-link">Check it Out</a>
+        </div>
+        <div class="project-container project-card">
+          <img
+            src="bank.jpg"
+            alt="Tribute Page"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title">Banking System</h3>
+         
+          <a href="https://github.com/Purva26/Banking-System" target="_blank" class="project-link">Check it Out</a>
+        </div>
+      </div>
+    </section>
+
+   
+<section class="contact" id="contact">
+      <h2>Contact Me</h2>
+      <div class="contact-form-container">
+        <div class="contact-form">
+          <form action="https://formspree.io/f/xyylngw" method="POST">
+            <div class="form-control">
+              <label for="name">Name</label>
+              <input
+                type="text"
+                id="name"
+                name="sender-name"
+                placeholder="Enter Your Name"
+                class="input-field"
+                required
+              />
+            </div>
+            <div class="form-control">
+              <label for="email">Email</label>
+              <input
+                type="email"
+                id="email"
+                name="sender-email"
+                placeholder="Enter Your Email"
+                class="input-field"
+                required
+              />
+            </div>
+            <div class="form-control">
+              <label for="contact">Contact</label>
+              <input
+                id="contact"
+                placeholder="Enter Your Number"
+                name="message"
+                class="input-field"
+                required
+              ></input>
+            </div>
+            <input
+              type="submit"
+              value="Submit"
+              id="submit-btn"
+              class="submit-btn"
+            />
+          </form>
+        </div>
+
+
+
+      </div>
+    </section>
+	   <div class="socials">
+      <a href="#" target="_blank"
+        ><img
+          src="Insta.png"
+          alt="Instagram"
+          loading="lazy"
+          class="socicon"
+      /></a>
+      <a href="https://www.linkedin.com/in/purva-sutar-223928218" target="_blank"
+        ><img
+          src="linkedin.jpg"
+          alt="Linkedin"
+          loading="lazy"
+          class="socicon"
+      /></a>
+      <a href="https://github.com/Purva26" target="_blank"
+        ><img src="github.jpg" alt="Github" class="socicon"
+      /></a>
+  
+
+    <!-- Website scripts -->
+    <script src="script.js"></script>
+
+    <!-- Ion icons scripts -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
